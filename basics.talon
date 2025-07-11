@@ -36,10 +36,19 @@ show windows:
     key(ctrl-up)
 hide windows:
     key(ctrl-up)
+show desktop:
+    key(f11)
+hide desktop:
+    key(f11)
+
+scroll top: 
+    key(home)
 scroll down: 
     key(pagedown)
 scroll up:     
     key(pageup)
+scroll bottom: 
+    key(end)
 
 announce ram:
     user.announce_ram_usage()
