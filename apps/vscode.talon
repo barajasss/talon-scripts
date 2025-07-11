@@ -17,7 +17,7 @@ clear terminal:
     insert("clear")
     key(return)
 
-load file <phrase>:
+load file:
     key(cmd-p)
 
 load project:
