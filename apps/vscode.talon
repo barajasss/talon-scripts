@@ -36,3 +36,10 @@ zen mode:
     key(cmd-k)
     key(z)
 
+git status:
+    key(ctrl-`)
+    sleep(100ms)
+    insert("git status")
+    key(return)
+    insert("git branch")
+    key(return)
