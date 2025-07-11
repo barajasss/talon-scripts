@@ -6,6 +6,13 @@ escape:
 save changes:
     key(cmd-ctrl-s)
 
+close tab:
+    key(cmd-w)
+
+close all tabs:
+    key(cmd-k)
+    key(u)
+
 clear terminal:
     insert("clear")
     key(return)
